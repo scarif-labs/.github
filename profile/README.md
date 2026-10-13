@@ -22,4 +22,5 @@ The repo has the data, scripts, methodology and a list of the study's limitation
 
 ## Working with us
 
-If you have something you want built, get in touch at [scariflabs.com](https://scariflabs.com).
+If you have something you want built, get in touch at [hi@scariflabs.com](mailto:hi@scariflabs.com?subject=Saw%20your%20GitHub&body=Hi%2C%0A%0AI%20came%20across%20your%20GitHub%20and%20wanted%20to%20get%20in%20touch.%0A%0A).
+
