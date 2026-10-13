@@ -2,71 +2,24 @@
 
 > You bring the idea. We build it.
 
-Independent product studio for founders and teams with ambitious ideas.
+We're a small independent studio that designs and builds software for founders and teams, mostly products, AI systems and internal tools. This org holds the work we've made public.
 
-We design, engineer, and launch:
+## Horus
 
-- Software products
-- AI systems
-- Internal tools
-- Digital experiences
+[scarif-labs/horus](https://github.com/scarif-labs/horus)
 
-We also build things simply because we want to see if they can exist.
+An Android app that runs Claude Code, Codex and OpenCode in an Alpine Linux ARM64 environment on the phone. It doesn't need root or Termux; it bundles its own PRoot runtime, PTY and terminal renderer. If you plug the phone into a computer, the optional `horus` CLI adds SSH, port forwarding and file sync over USB.
 
----
+It's on [F-Droid](https://f-droid.org/packages/com.scariflabs.horus/), and the docs are at [scariflabs.com/horus/docs](https://scariflabs.com/horus/docs).
 
-## The Lab
+## JEV software decision benchmark
 
-This is where we experiment in public.
+[scarif-labs/jev-software-decision-benchmark](https://github.com/scarif-labs/jev-software-decision-benchmark)
 
-We publish tools, prototypes, infrastructure, research, and ideas that are useful enough to share.
+We tested JEV, a probabilistic decision model from TypeSafe, on one job: deciding whether a dependency update is safe to auto-merge. On the main 1,102-case set it scored an AUROC of 0.851, ahead of static rules (0.602) and DeepSeek Flash (0.585). On a separately built set of 185 cases from 103 repositories it fell to 0.605, and the threshold we'd fixed beforehand let through 15 bad merges out of 30.
 
-Some become products.
+The repo has the data, scripts, methodology and a list of the study's limitations, so you can rerun it yourself.
 
-Some become open source.
+## Working with us
 
-Some teach us what not to build.
-
-That's the point.
-
----
-
-## What you'll find here
-
-**Open source**
-
-Things we've built that we think should exist in the world.
-
-**Experiments**
-
-Unfinished ideas, technical explorations, and strange little projects.
-
-**Systems**
-
-The infrastructure and engineering patterns behind the things we build.
-
-**Build logs**
-
-What we're making, why we're making it, and what we learn along the way.
-
----
-
-## Working in the open
-
-We believe the best way to demonstrate how we build is to actually build.
-
-No polished case-study theatre.
-
-Just ideas → prototypes → decisions → software.
-
----
-
-### Have something worth building?
-
-Scarif Labs works with founders and teams to turn ambitious ideas into working products.
-
-**[scariflabs.com](https://www.scariflabs.com/)**
-
----
-
-<sub>Scarif Labs · Independent product studio</sub>
+If you have something you want built, get in touch at [scariflabs.com](https://scariflabs.com).
